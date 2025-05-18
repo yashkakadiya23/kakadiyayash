@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YK • Portfolio</title>
+
+    <!-- Font Awesome & Main CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== Header / Nav ===== -->
+    <header>
+        <a href="#home" class="logo">YK</a>
+        <nav>
+            <a href="#home"      class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="assets/img/wp12882261.jpg" alt="Profile picture" />
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, it's <span>Yash Kakadiya</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>
+                Passionate full‑stack developer focused on crafting clean,
+                user‑friendly experiences and performant web applications.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+        <h2 class="section-title">My <span>Services</span></h2>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Responsive, high‑performance sites with modern stacks.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>UI / UX Design</h3>
+                <p>Pixel‑perfect interfaces and delightful micro‑interactions.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Backend Integration</h3>
+                <p>REST APIs, authentication, databases, and cloud deployment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-bars">
+            <div class="skill"><span>HTML / CSS</span><em style="width:95%"></em></div>
+            <div class="skill"><span>JavaScript</span><em style="width:90%"></em></div>
+            <div class="skill"><span>React.js</span><em style="width:85%"></em></div>
+            <div class="skill"><span>Node.js</span><em style="width:80%"></em></div>
+            <div class="skill"><span>Git & GitHub</span><em style="width:92%"></em></div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="education" id="education">
+        <h2 class="section-title">My <span>Education</span></h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>B.Tech – Computer Science</h3>
+                <span class="date">XYZ University | 2020 – 2024</span>
+                <p>Graduated with distinction; focused on full‑stack projects.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Higher Secondary</h3>
+                <span class="date">ABC School | 2018 – 2020</span>
+                <p>Specialized in Mathematics & Computer Science.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience" id="experience">
+        <h2 class="section-title">My <span>Experience</span></h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Frontend Developer Intern</h3>
+                <span class="date">Tech Co. | Jan 2023 – Apr 2023</span>
+                <p>Built reusable React components and optimized performance.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Freelance Web Developer</h3>
+                <span class="date">Remote | 2022 – Present</span>
+                <p>Delivered 15+ responsive websites for global clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! I will reply soon.');">
+            <input   type="text"  placeholder="Your Name"   required />
+            <input   type="email" placeholder="Your Email"  required />
+            <textarea rows="6"     placeholder="Your Message" required></textarea>
+            <button type="submit"  class="btn">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
